@@ -22,7 +22,7 @@ ML_Cross_Validation/
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/ML_Cross_Validation.git
+   git clone https://github.com/dfzuleta/ML_Cross_Validation.git
    cd ML_Cross_Validation
 
 2. Install dependencies (Python 3.8+ recommended):
@@ -67,12 +67,3 @@ All dependencies are listed in requirements.txt. If needed:
 
    pip install pandas scikit-learn matplotlib seaborn openpyxl
 
-🤝 Contributions
-----------------
-Feel free to fork the repo, suggest improvements, or submit pull requests.  
-You can add more models or cross-validation strategies by editing src/modeling.py.
-
-📄 License
------------
-MIT License
-"""
