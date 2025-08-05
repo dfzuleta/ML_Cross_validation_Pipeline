@@ -1,2 +1,76 @@
 # ML_Cross_validation_Pipeline
-A modular machine learning pipeline in Python for preprocessing, model evaluation, cross-validation, and visualization. Includes Lasso-based feature selection and supports multiple models and CV strategies. Comes with a working example using the Iris dataset.
+A modular machine learning pipeline in Python for preprocessing, model evaluation, cross-validation, and visualization. Includes Lasso-based feature selection and supports multiple models and CV strategies.
+
+📁 Project Structure
+--------------------
+
+ML_Cross_Validation/
+├── main.py                   # Main script to run the workflow
+├── requirements.txt          # Python dependencies
+├── outputs/                  # Model results and charts (generated after running)
+├── data/                     # (Optional) Your dataset here
+├── src/                      # Project modules
+│   ├── preprocessing.py
+│   ├── modeling.py
+│   ├── feature_selection.py
+│   └── visualization.py
+
+🚀 How to Use
+--------------
+
+1. Clone the repository:
+
+   git clone https://github.com/your-username/ML_Cross_Validation.git
+   cd ML_Cross_Validation
+
+2. Install dependencies (Python 3.8+ recommended):
+
+   pip install -r requirements.txt
+
+3. Add your data:
+
+   Update main.py:
+
+       X = pd.read_csv("data/your_dataset.csv")
+       y = X.pop("target_column")
+       Columnas_numero = ["column1", "column2", ...]
+
+4. Run the pipeline:
+
+   python main.py
+
+This will:
+- Encode categorical variables
+- Scale numerical features
+- Train and evaluate multiple models
+- Save results to outputs/resultados_modelos.xlsx
+- Generate performance charts
+- Perform feature selection using Lasso
+
+🧪 Optional: Run in Spyder or VS Code
+-------------------------------------
+1. Open the ML_Cross_Validation folder as your working directory.
+2. Open main.py
+3. Run sections step-by-step (Spyder supports # %% cell separation)
+
+📊 Output Files
+----------------
+All results and plots are saved in the outputs/ directory:
+- resultados_modelos.xlsx: evaluation scores
+- Accuracy_comparativa_modelos.png, F1 Score_...: charts for each metric
+
+📦 Requirements
+----------------
+All dependencies are listed in requirements.txt. If needed:
+
+   pip install pandas scikit-learn matplotlib seaborn openpyxl
+
+🤝 Contributions
+----------------
+Feel free to fork the repo, suggest improvements, or submit pull requests.  
+You can add more models or cross-validation strategies by editing src/modeling.py.
+
+📄 License
+-----------
+MIT License
+"""
