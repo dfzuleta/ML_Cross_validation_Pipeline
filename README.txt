@@ -1,5 +1,7 @@
-# ML_Cross_validation_Pipeline
-A modular machine learning pipeline in Python for preprocessing, model evaluation, cross-validation, and visualization. Includes Lasso-based feature selection and supports multiple models and CV strategies.
+ML_Cross_Validation
+===================
+
+This project provides a reusable pipeline to evaluate multiple machine learning models using different cross-validation strategies. It also includes preprocessing steps, feature selection via Lasso, and metric visualization.
 
 📁 Project Structure
 --------------------
