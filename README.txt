@@ -22,7 +22,7 @@ ML_Cross_Validation/
 
 1. Clone the repository:
 
-   git clone https://github.com/dfzuleta/ML_Cross_Validation.git
+   git clone https://github.com/dfzuleta/ML_Cross_validation_Pipeline.git
    cd ML_Cross_Validation
 
 2. Install dependencies (Python 3.8+ recommended):
